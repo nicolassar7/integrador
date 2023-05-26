@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+}
+
+
+.card {
+  box-sizing: border-box;
+  width: 230px;
+  height: 294px;
+  background: blueviolet;
+  border: 5px solid greenyellow;
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+  backdrop-filter: blur(6px);
+  border-radius: 17px;
+  text-align: center;
+  transition: all 0.5s;
+
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  font-weight: bolder;
+  
+}
+.card button{
+  margin-top: 6%;
+  margin-left: 45%;
+
+  cursor: pointer;
+  
+  border: greenyellow;
+  background: transparent;
+  color:greenyellow;
+  font-weight: 900;
+  text-align: center;
+}
+
+.card button:focus{
+  border-color: greenyellow;
+  box-shadow: 0 0 0 0.2rem greenyellow;
+}
+
+.card img{
+  margin-top: 7%;
+  border-radius: 100%;
+  width: 130px;
+  border: 5px solid greenyellow;
+
+
+}
+
+
+
+.title{
+  font-size: 1.5em;
+  font-weight: 900;
+  text-align: center;
+  margin: 0;
+  color: greenyellow;
+
+}
+
+.card:hover {
+  border: 1px solid greenyellow;
+  transform: scale(1.05);
+}
+
+.card:active {
+  transform: scale(0.95) 
+}

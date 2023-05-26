@@ -1,0 +1,20 @@
+.App{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    flex-wrap: wrap;
+    padding: 20px;
+
+    
+    
+    padding: 11px;
+    
+}
+
+body{
+    /* background-image: url('./assets/rkw.jpg') ; */
+    background-color: rgb(32, 31, 31);
+    background-size:cover;
+    width: 100%;
+
+}

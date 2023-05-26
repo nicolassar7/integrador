@@ -1,0 +1,39 @@
+.container{
+  position: relative;
+  top: 0;
+  text-align: center;
+    
+}
+
+.container input {
+  padding: 5px;
+  border: 2px solid  greenyellow;
+  font-size: 16px;
+  color: greenyellow;
+  outline: none;
+  background-color: transparent;
+ 
+  font-size: 16px;
+}
+.container button{
+  padding: 10px;
+  border: 2px solid  greenyellow;
+
+  font-size: 16px;
+  color: blueviolet;
+  outline: none;
+  background-color: greenyellow;
+  cursor: pointer; ;
+  font-size: 16px;
+
+} 
+.container input:focus {
+
+  border-color: blueviolet;
+  box-shadow: 0 0 0 0.2rem #551294;
+ }
+
+ .container button:focus{
+  border-color: blueviolet;
+  box-shadow: 0 0 0 0.2rem rgb(85, 18, 148);
+}
