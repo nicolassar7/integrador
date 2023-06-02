@@ -1,25 +1,29 @@
 .nav{
     width: 100%;
     position: relative;
-    top: 0;
+    align-items: center;
     text-align: center;
-    margin-top: 3%;
+  
+    flex-wrap: wrap;
+    background-color: #2e2e2e;
+
 }
 
-.nav button{
+.link button{
     border: 2px solid  greenyellow;
     padding: 5px;
-    font-size: 16px;
+    font-size: 14px;
     color: greenyellow;
     outline: none;
     background-color: blueviolet;
     cursor: pointer; 
-    font-size: 16px;
-    margin-top: 2%;
-
-    margin-right: 1%
+    border-radius: 5px;
+    margin: 5px;
+    font-weight: bold;
 }
-.nav button:focus{
-    border-color: blueviolet;
-    box-shadow: 0 0 0 0.2rem rgb(85, 18, 148);
-  }
+.link button:hover {
+    background: greenyellow;
+    border: 2px solid  blueviolet;
+    color: blueviolet;
+    
+}

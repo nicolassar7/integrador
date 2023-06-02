@@ -1,8 +1,8 @@
 const express = require('express');
 const server = express();
+
 const morgan = require('morgan');
 const router = require('./Routes/index')
-
 
 server.use(express.json());
 server.use(morgan('dev'));
@@ -24,5 +24,6 @@ server.use((req, res, next) => {
 });
 
 server.use('/rickandmorty', router );
+
 
 module.exports = server;

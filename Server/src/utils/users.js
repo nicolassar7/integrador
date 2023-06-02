@@ -1,1 +1,0 @@
-module.exports = [{email: 'sarmienton454@gmail.com', password:'asd123'}];

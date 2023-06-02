@@ -23,6 +23,7 @@ const handleSubmit = (event)=>{
   return (
     <div className={style.form}>
       <form>
+        <h1 className="text">Sign in</h1>
         <label htmlFor="email">Email: </label>
         <input
           onChange={handleChange}

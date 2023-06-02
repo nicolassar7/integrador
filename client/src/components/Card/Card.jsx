@@ -23,11 +23,11 @@ const Card = ({id, name, status, species, gender, origin, image, onClose, addFav
    
   
    return (
-      <div className="card">
+      <div className={style.card}>
          
          <button2 onClick={handleFavorite}>{isFav ? '💚' : '🤍'}</button2>
         
-         <button onClick={()=> {onClose(id)}}>CLOSE</button>
+         <button onClick={()=> {onClose(id)}}>✖</button>
          <Link to={`/detail/${id}`}>
             <img src={image} alt="" />    
          </Link>

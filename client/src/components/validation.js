@@ -5,16 +5,16 @@ export default (data) => {
         errors.e1 = 'Email is not valid';
     }
     if(!data.email){
-        errors.e2 = 'Ingrese Email'
+        errors.e2 = 'Enter Email'
     }
     if(data.email.length > 35){
-        errors.e3 = 'Menos de 35 caracteres'
+        errors.e3 = 'missing characters'
     }
     if(!/\d/.test(data.password)){
-        errors.p1 = 'Al menos debe tener un numero'
+        errors.e4 = 'Enter at least one number'
     }
     if(data.password.length < 6 || data.password.length > 10){
-        errors.p2 = 'Longitud incorrecta'
+        errors.p2 = 'Invalid password'
     }
     return errors
 };

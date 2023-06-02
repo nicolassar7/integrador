@@ -1,13 +1,25 @@
+.fav{
+    margin-top: 1%;
+    flex-wrap: wrap;
+    text-align:center;
+    flex-direction: row;
+}
 .fav select{
     border: 2px solid  greenyellow;
-    padding: 5px;
+    padding: 4px;
     font-size: 16px;
     color: greenyellow;
     outline: none;
     background-color: blueviolet;
     cursor: pointer; 
     font-size: 16px;
-    margin-top: 2%;
-
-    margin-right: 1%
+    border-radius: 5px;
+    margin: 5px;
+    font-weight: bold;
+}
+.fav select:focus {
+    background: greenyellow;
+    border: 2px solid  blueviolet;
+    color: blueviolet;
+    
 }

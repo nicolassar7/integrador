@@ -5,8 +5,8 @@ import NavBar from "./components/NavBar/NavBar";
 import { useState, useEffect } from "react";
 import axios from "axios";
 import { Routes, Route, useLocation, useNavigate } from "react-router-dom";
-import About from "./components/About";
-import Detail from "./components/Detail";
+import About from "./components/About/About";
+import Detail from "./components/Detail/Detail";
 import Forms from "./components/Form/Form";
 import Favorites from "./components/Favorites/Favorites"
 

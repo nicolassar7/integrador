@@ -1,48 +1,68 @@
+.card {
+  box-sizing: border-box;
+  width: 230px;
+  height: 294px;
+  background: blueviolet;
+  border: 4px solid greenyellow;
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+  backdrop-filter: blur(6px);
+  border-radius: 10px;
+  text-align: center;
+  transition: all 0.5s;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  font-weight: bolder;
+  margin:20px;
+}
+.card button{
+  margin-top: 6%;
+  margin-left: 67%;
+  border-radius: 50px;
+  cursor: pointer;
+  border:transparent;
+  background: transparent;
+  color:greenyellow;
+  font-weight: bold;
+  text-align: center;
+  font-size: 16px;
+}
 
-/* .cards { */
-    /* position: relative; */
-    /* width: 300px; */
-    /* height: 350px; */
-    /* margin: 20px; */
-  /* } */
-/*    */
-  /* .cards .face { */
-    /* position: absolute; */
-    /* width: 100%; */
-    /* height: 100%; */
-    /* backface-visibility: hidden; */
-    /* border-radius: 10px; */
-    /* overflow: hidden; */
-    /* transition: .5s; */
-  /* } */
-  /* .cards .front { */
-    /* transform: perspective(600px) rotateY(0deg); */
-    /* box-shadow: 0 5px 10px #fff; */
-  /* } */
-/*  */
-  /* .cards .front img { */
-    /* width: 298px; */
-    /* height: 290px; */
-/*     */
-    /* object-fit: cover; */
-    /* overflow: hidden; */
-/*      */
-  /* } */
-  /* .cards .back { */
-    /* transform: perspective(600px) rotateY(180deg); */
-    /* background: rgb(3, 35, 54); */
-    /* padding: 15px; */
-    /* color: #f3f3f3; */
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* justify-content: space-between; */
-    /* text-align: center; */
-    /* box-shadow: 0.5px 10px #fff; */
-  /* } */
-/*     */
-  /* .cards:hover .front{ */
-    /* transform: perspective(600px) rotateY(180deg) */
-  /* } */
-  /* .cards:hover .back{ */
-    /* transform: perspective(600px) rotateY(360deg) */
-  /* } */
+.card button2{
+  cursor: pointer;
+}
+
+.card button:hover {
+  background: greenyellow;
+  color: blueviolet;
+}
+
+.card img{
+  margin-top: 7%;
+  border-radius: 100%;
+  width: 130px;
+  border: 5px solid greenyellow;
+
+
+}
+
+
+
+.card p{
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  color: greenyellow;
+
+}
+
+.card:hover {
+  background-color: blueviolet;
+  border: 4px solid greenyellow;
+  transform: scale(1.05);
+}
+
+.card:active {
+  transform: scale(0.95) 
+}

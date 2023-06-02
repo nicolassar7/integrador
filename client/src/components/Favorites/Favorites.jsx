@@ -37,16 +37,12 @@ const Favorites = ({ myFavorites }) => {
 
 
       {myFavorites?.map(
-        ({ id, name, status, species, gender, origin, image, onClose }) => {
+        ({ id, name, image, onClose }) => {
           return (
             <Card
               key={id}
               id={id}
               name={name}
-              status={status}
-              species={species}
-              gender={gender}
-              origin={origin}
               image={image}
               onClose={onClose}
             />
